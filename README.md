@@ -1,18 +1,16 @@
-# ------...
+
 简单的猜数字小游戏
+
+
 #include<iostream>
 using namespace std;
 #include<ctime>
-
-
-
 int main()
 {
     srand((unsigned int)time(NULL));
    int num = rand() % 100 + 1;
     int a = 0;
     cout << "请输入0-100的数字" << endl;
-   
     int change = 0;
     
         while (1)
